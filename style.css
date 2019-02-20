@@ -1,5 +1,5 @@
 .content {
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
   padding: 5%;
   font-family: 'Pattaya', sans-serif;
@@ -14,8 +14,18 @@ h2 {
   margin-top:2%;
 }
 
-p {
-	font-family: 'Roboto', sans-serif;
+.flavortext {
+  width: 500px;  
+  margin-left: 50px;
+  margin-right: 50px;
+  font-style: italic;
+  color: #6E6E6E;
+  font-size: 15px;
+}
+
+.bodytext {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 .center {
