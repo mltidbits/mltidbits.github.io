@@ -1,7 +1,10 @@
 .content {
+  padding-top: 0;
   max-width: 600px;
   margin: auto;
-  padding: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
   font-family: 'Pattaya', sans-serif;
 }
 
@@ -49,3 +52,47 @@ h2 {
   margin-right: auto;
   width: 50%;
 }
+
+
+/* Style the links inside the navigation bar */
+.topnav {
+    /*border:1px solid #ccc;*/
+    padding-top: 20px;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.topnav li {
+  display:inline;
+}
+
+.topnav a {
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+}
+
+sup { 
+  vertical-align: super;
+  font-size: smaller;
+}
+
+/*/*/
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: grey;
+}
+
+sup { 
+  vertical-align: super;
+  font-size: smaller;
+}
+
+/*.topnav a.active {
+  color: grey;
+}*/
